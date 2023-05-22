@@ -1,0 +1,31 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100; 0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+
+:root{
+
+    --LightBlue: #48D6ED;
+    --DarkBlue: #337ab7;
+    --BlueNigga: #303342;
+    --Black: #333333;
+    --Black2: #000;
+    --Grey: #B2B3B3;
+    --Background: #FFFEFC;
+    --greenBlue: #157A8A;
+    --Magenta: #9C2759;
+    --white: #fff;
+    --degraded: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+
+}
+
+*{
+    margin:o;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
