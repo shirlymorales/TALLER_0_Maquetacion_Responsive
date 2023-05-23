@@ -29,33 +29,184 @@ body{
 h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
 }
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--negro);
+    background-color: var(--white);
     font-family: 'Marcellus', serif;
     font-size: 1.3em;
-     padding: 1rem;
+    padding: 1rem;
+}
+
+.item{
+    padding: 1rem;
+}
+
+.menu a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.navbar-button{
+    background-color: var(--DarkBlue);
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    border-radius: 5px;
+    font-family: 'Marcellus', serif;
+    font-size: 1em;
+}
+.menu i{
+    margin-right: 0.5rem;
+}
+.logo img{
+    height: 3rem;
+}
+
+#features{
+    background: url();
+    color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    background-repeat: no-repeat;
+    
+}
+
+.features-title{
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.features-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature{
+    width: 25%;
+    min-width: 180px;
+    max-width: 230px;
+    margin: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.feature i{
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue{
+    background-color: #00325eae;
+}
+.feature-black{
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+.logo{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo img{
+    width: 40%;
+    max-width: 200px;
+}
+
+.logo i{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.menu{
+    background-color: rgba(1, 10, 52, 0.838);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-hr{
+    width: 90%;
+    background-color: var(--white);
+}
+
+.item{
+    padding: 1rem;
+}
+
+nav a{
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #0B3860;
+    width: 100%;
+}
+
+.navbar-button{
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    padding: 0.5rem;
+    font-family: 'Marcellus', serif;
+    color: var(--white);
+}
+
+    /*Resolucion tablet*/
+    @media screen and (min-width: 768px) {
+        
     }
-    .item{
+/* Resolucion notebooks*/
+    @media screen and (min-width: 1024){
+        
+    nav{
+        display: flex;
+        flex-direction: row; 
+        width: 100%;
+        justify-content: space-between;
+        background-color: var(--white);
+    }
+
+    .logo{
         padding: 1rem;
-        }
-        .menu a{
-        color: var(--blanco);
-        text-decoration: none;
-        }
-        .navbar-button{
-            background-color: var(--azuloscuro);
-            padding: 0.5rem 1rem;
-            color: var(--blanco);
-            border-radius: 5px;
-            font-family: 'Marcellus', serif;
-            font-size: 1em;
-            }
-            .menu i{
-            margin-right: 0.5rem;
-            }
-            .logo img{
-            height: 3rem;
-            }
+    }
+    .logo img{
+        width: 100%;
+        max-width: 180px;
+    }
+    .logo i{
+        display: none;
+    }
+
+     .menu{
+        background-color: var(--white);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+     }
+     .menu-hr{
+        display: none;
+     }
+     .navbar-button{
+        background-color:var(--DarkBlue);
+     }
+}
+
+@media screen and (min-width: 1308px){
+    
+}
